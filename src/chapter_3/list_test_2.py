@@ -9,3 +9,7 @@ sortedCars = sorted(cars,reverse=True)
 print(cars)
 print(sortedCars)
 
+print(len(sortedCars))
+
+for car in sortedCars:
+	print(car)
